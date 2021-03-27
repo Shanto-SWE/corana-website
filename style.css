@@ -1,0 +1,94 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+section{
+    padding: 20px 0;
+    height: 100%;
+    
+}
+
+.container{
+    text-align: center;
+}
+h1{
+    padding-bottom: 30px;
+    text-align:center;
+   
+}
+.navbar-toggler{
+outline: none;
+border: none;
+}
+
+
+.nav-link{
+    color:white;
+    font-size:20px;
+}
+.navbar-brand{
+    color:#2d3436!important;
+    font-weight:bold;
+    font-size:30px;
+}
+
+/* -------------main-header ---------------*/
+.main_header{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rightside{
+    margin-top: 75px;
+}
+.gocorona img{
+    animation: corona 3s linear infinite;
+}
+@keyframes corona{
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform:rotate(360deg);
+    }
+}
+.leftside img{
+
+
+    animation: man 3s linear alternate-reverse both infinite;
+}
+@keyframes man{
+    0%{
+        transform: scale(.75);
+    }
+    20%{
+        transform: scale(1);
+    }
+    40%{
+        transform: scale(.75);
+    }
+    60%{
+        transform: scale(1);
+    }
+    80%{
+        transform: scale(.75);
+    }
+    1000%{
+        transform: scale(.75);
+    }
+}
+/* 
+about----------------- */
+
+
+.covid{
+    margin: 0 30px;
+}
