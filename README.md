@@ -1,7 +1,7 @@
 ##  Corona tracker
 This is live corona update website using php and mysqli.
 
-In this application, you can see the total effect people by corona various country wish. Users can also know what is coronavirus by this application and also know what is the Symptoms are of this virous.User can lararn how to prevation against coronaVirus.If any person is affected by coronavirus they can contact us.
+In this application, you can see the total effect people by corona virus country wish. Users can also know what is coronavirus by this application and also know what are the Symptoms of this virus.User can lararn how to prevation against coronaVirus.If any person is affected by coronavirus they can contact us.
 
 
 
